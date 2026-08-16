@@ -15,7 +15,7 @@ from langserve import add_routes
 # 1. ENVIRONMENT
 # ============================================================
 
-GOOGLE_API_KEY = os.environ.get("flowt-v1")
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
 
 if not GOOGLE_API_KEY:
     raise ValueError(
